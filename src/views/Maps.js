@@ -3,6 +3,7 @@ import React from "react";
 // react-bootstrap components
 import { Badge, Button, Navbar, Nav, Container } from "react-bootstrap";
 import SimpleMap from './mapstest';
+import './mapstest.css';
 
 function Maps() {
   const mapRef = React.useRef(null);
@@ -43,6 +44,7 @@ function Maps() {
   return (
     <>
       <div className="map-container">
+        <h3>show distributions of LLITNS per county on google maps</h3>
       <SimpleMap/>
 
         <div id="map" ref={mapRef}></div>

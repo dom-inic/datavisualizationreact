@@ -94,7 +94,7 @@ const DynamicChart = () => {
                                             //  ],
                             
                                              borderWidth: 1,
-                                             backgroundColor: 'rgba(255,0,255)',
+                                             backgroundColor: 'rgba(44,130,201,1)',
                                               borderColor: [
                                                 'rgba(255, 99, 132, 1)',
                                                 'rgba(54, 162, 235, 1)',

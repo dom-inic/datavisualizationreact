@@ -43,7 +43,7 @@ function Header() {
             onClick={(e) => e.preventDefault()}
             className="mr-2"
           >
-            LLINS VISUALIZATION APP
+            MOH DATA VISUALIZATION APP
           </Navbar.Brand>
         </div>
         

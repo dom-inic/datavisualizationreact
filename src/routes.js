@@ -23,6 +23,8 @@ import Icons from "views/Icons.js";
 import Maps from "views/Maps.js";
 import Notifications from "views/Notifications.js";
 import Upgrade from "views/Upgrade.js";
+import SimpleMap from "views/mapstest";
+// import SimpleMap from 'views/mapstest';
 
 const dashboardRoutes = [
   {
@@ -35,7 +37,7 @@ const dashboardRoutes = [
   {
     path: "/user",
     name: "county",
-    // icon: "nc-icon nc-circle-09",
+    icon: "nc-icon nc-pin-3",
     component: UserProfile,
     layout: "/admin",
   },
@@ -53,12 +55,21 @@ const dashboardRoutes = [
     component: Typography,
     layout: "/admin",
   },
+  // {
+  //   path: "/maps",
+  //   name: "Maps",
+  //   icon: "nc-icon nc-pin-3",
+  //   component: Maps,
+  //   layout: "/admin",
+    
+  // },
   {
-    path: "/maps",
-    name: "Maps",
+    path: "/maps2",
+    name: "Maps2",
     icon: "nc-icon nc-pin-3",
-    component: Maps,
+    component: SimpleMap,
     layout: "/admin",
+    
   },
 
 ];
