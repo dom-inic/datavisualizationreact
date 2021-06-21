@@ -1,67 +1,7 @@
-// import React, { Component } from 'react';
-// import GoogleMapReact from 'google-map-react';
- 
-// const AnyReactComponent = ({ text }) => <div>{text}</div>;
- 
-// class SimpleMap extends Component {
-//   static defaultProps = {
-//     center: {
-//       lat: 1.23,
-//       lng: 36.82
-//     },
-//     zoom: 11
-//   };
- 
-//   render() {
-//     return (
-//       // Important! Always set the container height explicitly
-//       <div style={{ height: '90vh', width: '90%' , float: 'right'}}>
-//         <GoogleMapReact
-//         //   bootstrapURLKeys={{ key: /* YOUR KEY HERE */ }}
-//           defaultCenter={this.props.center}
-//           defaultZoom={this.props.zoom}
-//         >
-//           <AnyReactComponent
-//             lat={59.955413}
-//             lng={30.337844}
-//             text="My Marker"
-//           />
-//         </GoogleMapReact>
-//       </div>
-//     );
-//   }
-// }
- 
-// export default SimpleMap;
-
-
-// import React, { Component } from "react";
-// import mapboxgl from '!mapbox-gl'; 
-// mapboxgl.accessToken =
-//   "pk.eyJ1IjoiZG9teWd1cnUiLCJhIjoiY2twYXZtNXFzMHdrNDJ5b2dydzZ5ZDAwcCJ9.y40XwcNDFeh7jM2tScUnKA";
-
-// import React, { Component } from 'react'
-
-// export default class SimpleMap extends Component {
-//     render() {
-//         return (
-//             <div>
-//                       <x-div>
-//         <x-mapbox>
-//           <x-marker id="marker" lnglat="Toronto, Canada" center>
-//             Looking For Here?
-//           </x-marker>
-//         </x-mapbox>
-//       </x-div>
-                
-//             </div>
-//         )
-//     }
-// }
 
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl'; 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZG9teWd1cnUiLCJhIjoiY2twYXZtNXFzMHdrNDJ5b2dydzZ5ZDAwcCJ9.y40XwcNDFeh7jM2tScUnKA';
+mapboxgl.accessToken = 'enter you own access token from mapbox';
  
 export default function SimpleMap() {
 const mapContainer = useRef(null);
