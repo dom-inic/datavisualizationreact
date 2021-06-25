@@ -1,10 +1,14 @@
 ## documentation
+hackathon project done for healthIT
+visualization of LLITns using reactjs framework 
 
-this is a documentation for visualization of LLITns 
 ## The devs :
-dominic
-Bethwel 
-Cynthia 
+
+Dominic Nyambane,
+Bethwel Rono,
+Cynthia Aoko,
+
+
 
 To get started using the app make sure you have react installed in your machine
 ## Installation
