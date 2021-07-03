@@ -1,7 +1,7 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl';
-mapboxgl.accessToken = 'pk.eyJ1IjoiZG9teWd1cnUiLCJhIjoiY2twYXZtNXFzMHdrNDJ5b2dydzZ5ZDAwcCJ9.y40XwcNDFeh7jM2tScUnKA';
+mapboxgl.accessToken = 'your token here';
 
 export default function SimpleMap() {
     const mapContainer = useRef(null);
