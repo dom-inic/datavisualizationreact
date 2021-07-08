@@ -10,6 +10,7 @@
     "bootstrap": "4.6.0",
     "chart.js": "^3.3.0",
     "chartist": "0.10.1",
+    "express": "^4.17.1",
     "google-map-react": "^2.1.9",
     "google-maps-react": "^2.0.6",
     "gulp": "4.0.2",
