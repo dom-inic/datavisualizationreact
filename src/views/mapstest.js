@@ -1,7 +1,8 @@
 
 import React, { useRef, useEffect, useState } from 'react';
 import mapboxgl from '!mapbox-gl';
-mapboxgl.accessToken = 'your token here';
+// not upload this token to git, for development purpose only 
+mapboxgl.accessToken = 'enter mapbox token here ';
 
 export default function SimpleMap() {
     const mapContainer = useRef(null);
